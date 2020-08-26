@@ -1,0 +1,80 @@
+main{
+    margin: 50px 0px;
+}
+.profilePic { 
+    img{
+        border-radius: 50%;
+        width: 100%;
+    }
+}
+.mainContent{
+    padding-left: 85px;
+}
+
+.resumeLinkBox{
+    padding: 0px;
+    a{
+        width: 130px;
+        height: 130px;
+        display: flex;
+        line-height: 130px;
+        justify-content: center;
+        background-color: rgba(232, 53, 86, 1);
+        transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+        border: solid rgba(232, 53, 86, 1) 0px;
+        border-radius: 50%;
+        color: #fff;
+        text-decoration: none;
+        font-size: small;
+        cursor: pointer;
+    }
+    a:hover{
+        background-color: rgba(155, 35, 57, 1);
+    }
+}   
+.workLinkBox{
+    padding: 0px;
+    a{
+        width: 130px;
+        height: 130px;
+        display: flex;
+        line-height: 130px;
+        justify-content: center;
+        background-color: rgba(97, 208, 212, 1);
+        transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+        border: solid rgba(97, 208, 212, 1) 0px;
+        border-radius: 50%;
+        color: #fff;
+        text-decoration: none;
+        font-size: small;
+        cursor: pointer;
+    }
+    a:hover{
+        background-color: rgba(65, 139, 141, 1);
+    }
+}   
+.skillsLinkBox{
+    padding: 0px;
+    a{
+        width: 130px;
+        height: 130px;
+        display: flex;
+        line-height: 130px;
+        justify-content: center;
+        background-color: rgba(209, 201, 38, 1);
+        transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+        border: solid rgba(209, 201, 38, 1) 0px;
+        border-radius: 50%;
+        color: #fff;
+        text-decoration: none;
+        font-size: small;
+        cursor: pointer;
+    }
+    a:hover{
+        background-color: rgba(139, 134, 25, 1);
+    }
+}   
+
+.marginTop25{
+    margin-top: 25px;
+}
