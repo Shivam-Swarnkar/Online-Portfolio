@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #888888;
 }
 .siteBackgroundcurrent{
     top: 0px; 
@@ -12,20 +13,36 @@ body{
 }
 .font_0{
     font: normal normal bold 43px/1.4em 'noticia text',serif;
-    color:#4D4D4D;
+    color:#888888;
 }
-.font_1 {font: normal normal bold 14px/1.2em 'noticia text',serif ;color:#4D4D4D;} 
-.font_2 {font: normal normal normal 80px/1.2em 'noticia text',serif ;color:#4D4D4D;} 
-.font_3 {font: normal normal normal 80px/1.2em 'noticia text',serif ;color:#4D4D4D;} 
-.font_4 {font: normal normal normal 46px/1.2em 'noticia text',serif ;color:#4D4D4D;} 
-.font_5 {font: normal normal normal 19px/1.2em 'noticia text',serif ;color:#4D4D4D;} 
-.font_6 {font: normal normal normal 17px/1.2em 'noticia text',serif ;color:#4D4D4D;} 
-.font_7 {font: normal normal normal 16px/1.2em 'open sans',sans-serif ;color:#4D4D4D;} 
-.font_8 {font: normal normal normal 13px/1.4em 'open sans',sans-serif ;color:#4D4D4D;} 
-.font_9 {font: normal normal normal 12px/1.4em 'open sans',sans-serif ;color:#4D4D4D;} 
-.font_10 {font: normal normal normal 11px/1.2em 'Open Sans',sans-serif ;color:#4D4D4D;} 
+.font_1 {font: normal normal bold 14px/1.2em 'noticia text',serif ;color:#888888;} 
+.font_2 {font: normal normal normal 80px/1.2em 'noticia text',serif ;color:#888888;} 
+.font_3 {font: normal normal normal 60px/1.2em 'noticia text',serif ;color:#888888;} 
+.font_4 {font: normal normal normal 46px/1.2em 'noticia text',serif ;color:#888888;} 
+.font_5 {font: normal normal normal 26px/1.2em 'noticia text',serif ;color:#888888;} 
+.font_6 {font: normal normal normal 20px/1.2em 'noticia text',serif ;color:#888888;} 
+.font_7 {font: normal normal normal 18px/1.2em 'open sans',sans-serif ;color:#888888;} 
+.font_8 {font: normal normal normal 16px/1.4em 'open sans',sans-serif ;color:#888888;} 
+.font_9 {font: normal normal normal 14px/1.4em 'open sans',sans-serif ;color:#888888;} 
+.font_10 {font: normal normal normal 12px/1.2em 'Open Sans',sans-serif ;color:#888888;} 
 
 .row{
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.htmlBodyHeight{
+    padding-bottom: 1px;
+}
+.blackBackground{
+ background-color   : #000000;
+}
+
+$green: #00c483;
+$charcoal: #888888;
+$black: #000000;
+$offWhite: #f1ecec;
+
+.headingText{
+    color: $offWhite;
 }

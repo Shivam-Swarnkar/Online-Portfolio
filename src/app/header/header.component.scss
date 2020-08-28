@@ -1,3 +1,5 @@
+@import "../../styles.scss";
+
 #SITE_HEADERinlineContent {
     height: auto;
     width: 100%;
@@ -15,20 +17,19 @@
         font: normal normal bold 14px/1.2em 'noticia text',serif;
         
         ul li{
-            display: inline;
+            display: inline-block;
             padding: 0px 17px;
 
             a{
-                color: #8B8B8B;
-                transition: color 0.4s ease 0s;
+                color: $green;
             }
             a:hover{
                 text-decoration: none;
+                color: $charcoal;
             }
         }
         ul li.active a{
-            color: #61D0D4;
-            transition: color 0.4s ease 0s;
+            color: $charcoal;
         }
       }
   }

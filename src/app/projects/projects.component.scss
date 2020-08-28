@@ -1,0 +1,27 @@
+@import "../../styles.scss";
+
+.projectLine:before {
+    background: $charcoal;
+    content: '';
+    position: absolute;
+    top: 65px;
+    width: 2px;
+    height: 88%;
+    z-index: 0;
+}
+
+.projectDot:before{
+    background: $black;
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid $charcoal;
+    z-index: 0;
+    left: 8px;
+    margin-top: 5px;
+}
+.projectBox{
+    margin-left: 20px;
+}
