@@ -1,26 +1,57 @@
 <header class="container row">
-<div class="offset-md-2 col-md-4">
-  <div class="font_0">
-    <span>
-      Shivam Swarnkar
-    </span>
-  </div>
+  <div class="col-xs-8  col-sm-10 col-md-12 offset-lg-2 col-lg-4 headerName">
+    <div class="mediumHeader">
+    <div class="font_0">
+      <span>
+        Shivam Swarnkar
+      </span>
+    </div>
 
-  <div class="font_5">
-    <span class="font-weight-bold">
-      Front End Developer
-    </span>
+    <div class="font_5">
+      <span class="font-weight-bold">
+        Front End Developer
+      </span>
+    </div>
   </div>
-</div>
-  <div class="col-md-6 navBox">
-    <nav class="navbar navbar-default">
-        <ul>
-          <li [routerLinkActive]="['active']"><a [routerLink]="['home']">HOME</a></li>
-          <li [routerLinkActive]="['active']"><a [routerLink]="['resume']">RESUME</a></li>
-          <li [routerLinkActive]="['active']"><a [routerLink]="['projects']">PROJECTS</a></li>
-          <li [routerLinkActive]="['active']"><a [routerLink]="['contact']">CONTACT</a></li>
-        </ul>
+  </div>
+  <div class="d-none d-sm-block col-md-12 col-lg-6 hidden-xs navBox">
+    <nav class="navbar navbar-default mediumNav">
+      <ul>
+        <li [routerLinkActive]="['active']">
+          <a [routerLink]="['home']">HOME</a>
+        </li>
+        <li [routerLinkActive]="['active']">
+          <a [routerLink]="['resume']">RESUME</a>
+        </li>
+        <li [routerLinkActive]="['active']">
+          <a [routerLink]="['projects']">PROJECTS</a>
+        </li>
+      </ul>
 
     </nav>
   </div>
+  <div class="d-block d-sm-none col-xs-4">
+  <nav id="TINY_MENU" class="hidden-on-warmup tm1">
+
+    <a class="tm1_menuClosed tm1_dir-center tm1menuButton" (click)="toggleNav()">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </a>
+  </nav>
+</div>
+<div id="navMobile" class="d-none">
+    <ul class="row">
+        <li [routerLinkActive]="['active']" class="col-xs-12 col-sm-12">
+          <a [routerLink]="['home']" (click)="toggleNav()">HOME</a>
+          <hr>
+        </li>
+        <li [routerLinkActive]="['active']" class="col-xs-12 col-sm-12">
+          <a [routerLink]="['resume']" (click)="toggleNav()">RESUME</a>
+          <hr>
+        </li>
+        <li [routerLinkActive]="['active']" class="col-xs-12 col-sm-12">
+          <a [routerLink]="['projects']" (click)="toggleNav()">PROJECTS</a>
+          <hr>
+        </li>
+      </ul>
+    </div>
 </header>

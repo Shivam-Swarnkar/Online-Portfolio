@@ -33,6 +33,7 @@ body{
 
 .htmlBodyHeight{
     padding-bottom: 1px;
+    min-height: 100vh
 }
 .blackBackground{
  background-color   : #000000;
@@ -45,4 +46,17 @@ $offWhite: #f1ecec;
 
 .headingText{
     color: $offWhite;
+}
+.marginTop80{
+    margin-top: 80px;
+}
+.stopScroll{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 767px){
+    .font_0{
+        font: normal normal bold 28px/1.4em 'noticia text',serif;
+    }
+    .font_5 {font: normal normal normal 20px/1.2em 'noticia text',serif ;} 
 }

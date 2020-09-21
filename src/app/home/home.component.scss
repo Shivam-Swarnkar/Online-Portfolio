@@ -78,3 +78,34 @@ main{
 .marginTop25{
     margin-top: 25px;
 }
+
+svg{
+    vertical-align: bottom;
+}
+.svgImage{
+    width:45px;
+    height:45px;
+    stroke-width:0;
+    fill-opacity:1;
+    stroke:rgba(0, 0, 0, 1);
+    stroke-opacity:1;
+    fill:#00c483;;
+    display: inline-block;
+}
+.svgText{
+    display: inline-block;
+    margin-left: 15px;
+
+    a{
+        color: inherit;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .mainContent{
+        padding-left: 10px;
+    }
+}
