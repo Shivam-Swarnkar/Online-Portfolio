@@ -6,7 +6,7 @@
     position: absolute;
     top: 65px;
     width: 2px;
-    height: 95%;
+    height: 94.5%;
     z-index: 0;
 }
 
@@ -28,4 +28,10 @@
 }
 .projectLink{
     color: #f1ecec;
+}
+
+@media only screen and (max-width:1200px){
+    .projectLine:before {
+        height: 95%;
+    }
 }
