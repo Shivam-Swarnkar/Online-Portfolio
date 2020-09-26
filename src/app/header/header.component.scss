@@ -63,6 +63,10 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
     color: #ffffff;
+
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 .tm1fullScreenOverlay {
@@ -91,8 +95,7 @@
     ul{
         list-style-type: none;
         padding: 0;
-        transform: translateY(-100%);
-        top: 50%;
+        top: 12%;
         position: relative;
         li{
             line-height: 4;
@@ -114,9 +117,12 @@
         }
     }
 }
+.menu{
+    margin-top: 15px;
+}
 @media only screen and (max-width: 767px){
     .headerName{
-        width: 80%
+        width: 86%
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px){
